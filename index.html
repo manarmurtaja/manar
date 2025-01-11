@@ -5,24 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manar Murtaja</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        p{
+            color: red;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-       <img src="images/user-imge.jpeg" height="80" >
-    <h1>Manar Murtaja</h1>
-    <h3>Full-stack web developer</h3>
+       <img class="avatar" src="images/user-imge.jpeg" >
+    <h1 id="logo" style="color: blue; background-color: gray;">
+        Manar Murtaja <small>(pro)</small></h1>
+    <div></div>
+    <h3 id="sub-title">Full-stack web developer</h3>
     </header>
+    <h3 id="sub-title">Full-stack web developer 2</h3>
     <hr>
     <!-- Bio section -->
-    <section>
+    <section class="box v-space">
         <h4>Bio</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Porro iusto quibusdam quam accusantium. <br> delectus illum incidunt eligendi, 
-             exercitationem harum pariatur veritatis aspernatur,
-              ratione amet nihil quasi quas excepturi culpa.</p>
+        <div><p style="color: green;"><span>Lorem</span> ipsum, dolor sit amet consectetur adipisicing elit.
+            Porro iusto quibusdam quam accusantium. <br> delectus illum incidunt eligendi, 
+            exercitationem harum pariatur veritatis aspernatur,
+             ratione amet nihil quasi quas excepturi culpa.</p>
+
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Porro iusto quibusdam quam accusantium. <br> delectus illum incidunt eligendi, 
+               exercitationem harum pariatur veritatis aspernatur,
+                ratione amet nihil quasi quas excepturi culpa.</p></div>
+        
     </section>
+    
     <!-- end of bio section -->
-     <section>
+     <section class="box v-space">
         <h4>Languages</h4>
         <ol start="5" type="i">
             <li>Arabic</li>
@@ -74,6 +92,13 @@
         </table>
      </section>
     <!-- end of section --> 
+     <section class="box v-space">
+        <h4>Soical Links</h4>
+        <ul>
+            <li><a href="https://twitter.com">twitter</a></li>
+            <li><a href="https://linkedin.com">linked-in</a></li>
+        </ul>
+     </section>
 
 </body>
 </html>
